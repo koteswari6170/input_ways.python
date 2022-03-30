@@ -1,0 +1,35 @@
+'''input ways'''
+#  a=input(" enter person name")
+# b=int(input('reg .no'))
+# c=float(input("enter salary"))
+
+# print("person names is %s " %a+'from vizag'+' ')
+# print('reg no is %d'%b)
+# print('salary is %f'%c)
+# print("reg.no is",float(b))
+# print("reg.no is",str(b),sep=' ')
+# print("salary is ",str(c))
+# print("salary is ",int(c))
+
+# print(a,type(a)); print(b,type(b)); print(c,type(c))
+
+# print(" the person name is",a ,'her reg .no is',b, "and salary is ",c)
+# print(" the person name is",a ,'her reg .no is',b, "and  salary is ",str(c)+'lakhs')
+# print('the person name is',a+'.','her reg no is',str(float(b))+".", 'and salary is',str(c)+'lakhs.')
+# print('the person name is',a,'her reg no is',float(b), 'and salary is',str(c)+'lakhs.')
+# print('the person name is',a);print('her reg no is',float(b));print('and salary is',str(c)+'lakhs.')
+# print('the person name is',a+'.');print('her reg no is',str(float(b))+".");print('salary is',str(c)+'lakhs.')
+
+        #    '''format with  placeholders no values with in it'''
+# print("the person name is {},her reg .no is {},and salary is {} lakhs".format(a,b,c))
+        #   '''format with placeholder values with in it'''
+# print("the person name is {0},her reg .no is {1},and salary is {2} lakhs".format(a,b,c))     
+# print("the person name is {1},her reg .no is {2},and salary is {0} lakhs".format(c,a,b))
+# print("the person name is {2},her reg .no is {1},and salary is {0} lakhs".format(c,b,a))
+#     '''fast string'''
+# print(f"the person name is {a},her reg .no is {b}, and salary is {c} lakhs.")
+        # ''' by using format specifiers'''
+# print(" the person name is %s"%a);print('reg no is %d'%b);print('salary is %f'%c)
+# print(" the person name is %s,reg no is %d,salary is %f."%(a,b,c))
+        # '''fast string with sep end method'''
+# print(f'person name is {a},reg no is {b},slary is {c}lakhs.',sep=' @',end='') 
